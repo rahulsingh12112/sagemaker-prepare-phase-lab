@@ -51,6 +51,22 @@ Synthetic loan approval dataset (50 records, 13 features) — includes demograph
 ├── README.md
 ├── data/
 │   └── loan_data.csv
-└── notebooks/
-    └── prepare_phase_lab.ipynb
+├── notebooks/
+│   └── prepare_phase_lab.ipynb       ← Data preparation pipeline
+└── build-phase/
+    ├── notebooks/
+    │   └── build_phase_lab.ipynb     ← Model training (all build options)
+    └── scripts/
+        └── custom_train.py           ← BYO training script
 ```
+
+## BUILD Phase — What's Covered
+
+| SageMaker Feature | What I Demonstrated |
+|-------------------|---------------------|
+| Studio Notebooks | Entire lab runs in JupyterLab |
+| Built-in Algorithms | XGBoost + Linear Learner training |
+| JumpStart | LightGBM-style pre-trained model |
+| Autopilot | Multi-algorithm candidate evaluation |
+| Bring Your Own | Custom sklearn RandomForest script |
+| Local Mode | Local prototyping before cloud submission |
