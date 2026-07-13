@@ -70,3 +70,7 @@ Synthetic loan approval dataset (50 records, 13 features) — includes demograph
 | Autopilot | Multi-algorithm candidate evaluation |
 | Bring Your Own | Custom sklearn RandomForest script |
 | Local Mode | Local prototyping before cloud submission |
+
+## Model Selection Strategy
+
+See [`build-phase/MODEL_SELECTION_GUIDE.md`](build-phase/MODEL_SELECTION_GUIDE.md) for a quick reference on how to choose the right ML model for your use case.
